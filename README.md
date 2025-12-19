@@ -75,7 +75,8 @@ To account for process variations, 1000-point Monte Carlo simulations were condu
 References: 
 1. H. Kumar, A. Kumar and A. Islam, "Comparative analysis of D flip-flops in terms of delay and its variability," 2015 4th International Conference on Reliability, Infocom Technologies and Optimization (ICRITO)(Trends and Future Directions), Noida, India, 2015, pp. 1-6, doi: 10.1109/ICRITO.2015.7359339
 2. N. H. E. Weste and D. M. Harris, CMOS VLSI Design: A Circuits and Systems Perspective, 4th ed. Boston, MA, USA: Addison-Wesley, 2011.
-3. https://youtube.com/playlist?list=PLAHCLYSq3g_gz5ZyNlrCnnWgWWxQLeZZR&si=GfiJhqpZH2RhUut5
+3. J. M. Rabaey, A. P. Chandrakasan, and B. Nikolić, Digital Integrated Circuits: A Design Perspective, 2nd ed. Upper Saddle River, NJ, USA: Prentice Hall, 2003.
+4. https://youtube.com/playlist?list=PLAHCLYSq3g_gz5ZyNlrCnnWgWWxQLeZZR&si=GfiJhqpZH2RhUut5
 
 
 
