@@ -72,6 +72,12 @@ To account for process variations, 1000-point Monte Carlo simulations were condu
 | **Setup Time** | 31ps | 49ps | 3.23ps | 9.56ps |
 | **Hold Time** | 13ps | 25ps | 1.21ps | 4.45ps |
 
+References: 
+1. H. Kumar, A. Kumar and A. Islam, "Comparative analysis of D flip-flops in terms of delay and its variability," 2015 4th International Conference on Reliability, Infocom Technologies and Optimization (ICRITO)(Trends and Future Directions), Noida, India, 2015, pp. 1-6, doi: 10.1109/ICRITO.2015.7359339
+2. N. H. E. Weste and D. M. Harris, CMOS VLSI Design: A Circuits and Systems Perspective, 4th ed. Boston, MA, USA: Addison-Wesley, 2011.
+3. https://youtube.com/playlist?list=PLAHCLYSq3g_gz5ZyNlrCnnWgWWxQLeZZR&si=GfiJhqpZH2RhUut5
+
+
 
 ---
 Course Project of DVD(Digital VLSI Design) Course
