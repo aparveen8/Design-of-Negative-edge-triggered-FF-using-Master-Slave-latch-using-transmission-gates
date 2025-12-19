@@ -29,7 +29,10 @@ The layout was optimized through 5 iterations in order to reduce area consumed. 
 * **Verification:** The layout passed **DRC** and **LVS** with a "CORRECT" status
 
 * <p align="center">
-  <img src="img/layout.png" />
+  <img src="img/layout1.png" />
+</p>
+* <p align="center">
+  <img src="img/layout1.png" />
 </p>
 
 <p align="center">
