@@ -24,10 +24,22 @@ Transistors were sized to have delays under 200ps.
 
 ## Layout & Physical Design
 The layout was optimized through 5 iterations in order to reduce area consumed. It was designed as per standard cell design rules
+
 * **Final Area:** $14.39\mu m^2$ ($5.535\mu m \times 2.6\mu m$)
 * **Verification:** The layout passed **DRC** and **LVS** with a "CORRECT" status
 
-### Verification Plan & Stimuli
+* <p align="center">
+  <img src="img/layout.png" />
+</p>
+
+<p align="center">
+  <img src="img/drc.png" />
+</p>
+<p align="center">
+  <img src="img/lvs.png" />
+</p>
+
+## Verification Plan & Stimuli
 
 To verify the design's performance and functionality, the following verification plan was implemented using specific pre-conditions and stimuli:
 
@@ -36,6 +48,10 @@ To verify the design's performance and functionality, the following verification
 | **Clock to Q delay** | Data is stable ($D=1$), clock is high  | Apply Clock $= 0$  |
 | **Setup Time** | Clock is high, about to transition low  | Change Data input before the clock edge; measured when Clk-to-Q delay varies by ~5%  |
 | **Hold Time** | Clock has just transitioned from high to low  | Change Data input after the clock edge; measured when Clk-to-Q delay varies by ~5%  |
+
+<p align="center">
+  <img src="img/wave.png" />
+</p>
 
 ## 📊 Performance Analysis
 Performance was evaluated under various PVT (Process, Voltage, Temperature) corners
@@ -56,13 +72,6 @@ To account for process variations, 1000-point Monte Carlo simulations were condu
 | **Setup Time** | 31ps | 49ps | 3.23ps | 9.56ps |
 | **Hold Time** | 13ps | 25ps | 1.21ps | 4.45ps |
 
-
-
-## 📂 Repository Structure
-* `/schematic`: Circuit diagrams and transistor specifications.
-* `/layout`: Layout GDSII files and iteration history.
-* `/simulation`: Post-layout SPICE simulation results and waveforms.
-* `/reports`: DRC/LVS check summaries.
 
 ---
 Course Project of DVD(Digital VLSI Design) Course
