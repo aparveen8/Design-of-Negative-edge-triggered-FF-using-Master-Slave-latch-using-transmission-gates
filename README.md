@@ -22,16 +22,16 @@ Transistors were sized to have delays under 200ps.
 </p>
 
 
-## Layout & Physical Design
+## Layout 
 The layout was optimized through 5 iterations in order to reduce area consumed. It was designed as per standard cell design rules
 
 * **Final Area:** $14.39\mu m^2$ ($5.535\mu m \times 2.6\mu m$)
 * **Verification:** The layout passed **DRC** and **LVS** with a "CORRECT" status
 
-* <p align="center">
+<p align="center">
   <img src="img/layout_1.png" />
 </p>
-* <p align="center">
+<p align="center">
   <img src="img/layout_2.png" />
 </p>
 
