@@ -42,7 +42,8 @@ The challenge in layout was to design as per these constraints:
 * Iteration 3: Migration to a single-metal (M1) routing strategy.
 * Iteration 4: Clock-bar inverter placed at the cell boundary; identified as a bottleneck due to long signal paths.
 * Iteration 5 (Final): Relocated the clock-bar inverter to the center of the cell. This strategic placement reduced routing congestion and resulted in an 18% area saving.
-<p align="center"><img src="img/layout_1.png" width="45%" /><img src="img/layout_2.png" width="45%" /><em>Figure 1: Evolution from initial to Final optimized 13T layout.</em></p>
+<p align="center"><img src="img/layout_1.png" width="45%" /><img src="img/layout_2.png" width="45%" /></p> 
+<p align="center"> <em>Figure: Evolution from initial to Final optimized 13T layout.</em> </p>
 
 The final optimized layout (Iteration 5) achieved the following specifications:
 * Dimensions: 5.535µm * 2.6µm  
@@ -53,7 +54,7 @@ To ensure the design is ready for fabrication, the layout was subjected to indus
 
 1. Design Rule Check (DRC): Verified that all geometric dimensions and spacings comply with the specific technology node constraints.
 2. Layout vs. Schematic (LVS): Extracted netlists from the layout were compared against the original schematic. The design achieved a "CORRECT" status, confirming 1:1 topological correspondence.
-<p align="center"> <img src="img/drc.png" width="45%" /> <img src="img/lvs.png" width="45%" /></p>Figure: Physical verification reports confirming DRC/LVS compliance.
+<p align="center"> <img src="img/drc.png" width="45%" /> <img src="img/lvs.png" width="45%" /></p> <p align="center"> <em>Figure: Physical verification reports confirming DRC/LVS compliance <em> </p>
 
 ### 2.4 Layer Composition and Device Construction
 The layout integrates multiple process layers to form the CMOS logic, as shown in the figure below, an expanded view of a cell (one inverter):
@@ -61,20 +62,19 @@ The layout integrates multiple process layers to form the CMOS logic, as shown i
 2. Gate Formation: Transistors are defined by the intersection of the active regions and the Polysilicon layer
 3. Latch-up Mitigation: To prevent parasitic thyristor action (latch-up), substrate and well contacts (M1-NW and PTAP) are strategically placed to provide low-resistance paths to VDD and GND.
 <p align="center">
-  <img src="img/inv_lay.png" />
+  <img src="img/inv_lay.png"  width="50%" />
 </p>
 
 ## 3. Verification and Characterization
 The functionality of FF is achieved, as proved by the waveform below.
 <p align="center">
-  <img src="img/wave.png"  width="50%"  /> 
-  <em>
-    Figure: Output waveforms</em></p>
+  <img src="img/wave.png"  width="50%"  /> </p>
+ <p align="center"> <em>Figure: Output waveforms</em> </p>
 
 ### 3.1 Timing Estimation Methodology
 Setup and Hold times were estimated by varying the Data ($D$) transition relative to the Clock ($CLK$) falling edge. The 5% Delay Degradation Method was utilized: as the data edge approaches the clock edge, $T_{cq}$ begins to rise; the point where $T_{cq}$ increases by 5% from its nominal value is defined as the timing constraint.
 <p align="center">
-  <img src="img/setup.png" />
+  <img src="img/setup.png"  width="50%"/>
 </p>
 
 ### 3.2 Performance Summary (Worst Case PVT)
