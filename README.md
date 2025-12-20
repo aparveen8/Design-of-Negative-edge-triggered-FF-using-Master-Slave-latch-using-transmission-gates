@@ -54,7 +54,7 @@ To ensure the design is ready for fabrication, the layout was subjected to indus
 
 1. Design Rule Check (DRC): Verified that all geometric dimensions and spacings comply with the specific technology node constraints.
 2. Layout vs. Schematic (LVS): Extracted netlists from the layout were compared against the original schematic. The design achieved a "CORRECT" status, confirming 1:1 topological correspondence.
-<p align="center"> <img src="img/drc.png" width="45%" /> <img src="img/lvs.png" width="45%" /></p> <p align="center"> <em>Figure: Physical verification reports confirming DRC/LVS compliance <em> </p>
+<p align="center"> <img src="img/drc.png" width="45%" /> <img src="img/lvs.png" width="45%" /></p> <p align="center"> <em>Figure: Physical verification reports confirming DRC/LVS compliance </em> </p>
 
 ### 2.4 Layer Composition and Device Construction
 The layout integrates multiple process layers to form the CMOS logic, as shown in the figure below, an expanded view of a cell (one inverter):
@@ -111,7 +111,7 @@ The table below summarizes the simulation results for the designed cell, highlig
 * Clock Distribution: Centralizing clock buffers within the cell significantly reduces the standard deviation of local skews and saves horizontal routing resources.
 * Latch-up Prevention: Robust substrate/well tapping (PTAP/NTAP) is mandatory to prevent parasitic latch-up in 65nm nodes.
 
-References: 
+## References: 
 1. H. Kumar, A. Kumar and A. Islam, "Comparative analysis of D flip-flops in terms of delay and its variability," 2015 4th International Conference on Reliability, Infocom Technologies and Optimization (ICRITO)(Trends and Future Directions), Noida, India, 2015, pp. 1-6, doi: 10.1109/ICRITO.2015.7359339
 2. N. H. E. Weste and D. M. Harris, CMOS VLSI Design: A Circuits and Systems Perspective, 4th ed. Boston, MA, USA: Addison-Wesley, 2011.
 3. J. M. Rabaey, A. P. Chandrakasan, and B. Nikolić, Digital Integrated Circuits: A Design Perspective, 2nd ed. Upper Saddle River, NJ, USA: Prentice Hall, 2003.
@@ -120,5 +120,5 @@ References:
 
 
 ---
-Course Project of DVD(Digital VLSI Design) Course
+Course Project of DVD (Digital VLSI Design) Course
 * **Instructor:** Prof. Anuj Grover, Indraprastha Institute of Information Technology Delhi (IIIT-D)
