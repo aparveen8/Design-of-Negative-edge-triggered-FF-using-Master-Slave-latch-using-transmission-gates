@@ -4,7 +4,7 @@
 This report presents the implementation of a Negative Edge-Triggered Master-Slave D Flip-Flop (DFF) utilizing a Transmission Gate (TG) architecture. The design was characterized using CMOS065 technology in Cadence Virtuoso and simulated via Siemens Eldo. The primary objective was to achieve a compact standard cell footprint (13T height) while ensuring timing robustness. Through five iterations of physical optimization, the design achieved a final area of $14.39\mu m^2$, utilizing only the Metal 1 (M1) layer to minimize fabrication mask costs and parasitic overhead.
 
 ## 2. Circuit Architecture and Device Sizing
-The architecture utilizes a Master-Slave configuration to eliminate transparency issues and to save area. High-speed performance was prioritized by targeting a propagation delay ($T_{pd}$) of under 200ps.
+The architecture utilizes a Master-Slave configuration to eliminate transparency issues and to save area. High-speed performance was prioritized by targeting a propagation delay ($T_{clk-q}$) of under 200ps.
 
 ### 2.1 Sizing Methodology
 To minimize silicon area, internal logic gates were maintained at near-minimum feature sizes. However, sensitivity analysis and literature review confirmed that output-stage transistors have the most significant impact on reducing $T_{cq}$ delay. Consequently, the output drivers (M4/M8) were upsized to $0.6\mu m$ and $0.3\mu m$ respectively to drive capacitive loads effectively.
